@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  pumi-update:
+    build: .
+    container_name: node
+    volumes:
+      - ./data:/usr/src/app/data:cached
